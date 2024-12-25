@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'myFon';
+    src: url(../fonts/Roboto.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.nav_list {
+    text-decoration: none;
+    color: rgb(17, 70, 17);
+    font-size: 24px;
+}
+
+.nav_list:hover{
+    color: rgb(127, 177, 127);
+}
+
+.slaider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid;
+    border-color: rgb(17, 70, 17);
+    border-radius: 30px;
+}
+
+.slaider-text {
+    font-size: 40px;
+    color: rgb(17, 70, 17);
+    font-family: 'myFon', sans-serif;
+}
+.slaider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.slaider-img {
+    width: 50%;
+    height: 30%;
+    border-radius: 100px;
+}
+
+.slaider-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.after-slaider {
+    display: flex;
+    justify-content: space-around;
+}
+.after {
+    background-color: rgb(17, 70, 17);
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.after-one {
+    background-color: rgb(127, 177, 127);
+}
+
+.slaider-description {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.type_pet {
+    margin: 5%;
+}
+
+.description-pet {
+    margin: 5%;
+}
+.button-slaider {
+    padding: 20px;
+    width: 40%;
+    margin: 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button-slaider:hover {
+    background-color: rgb(127, 177, 127);
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+}
+
+.text-search {
+    transform: rotate(-90deg);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-search {
+    padding: 10px 40px;
+}
+
+.input-search-submit {
+    padding: 10px 40px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about_us {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-img {
+    width: 50%;
+    height: 50%;
+    margin: 2% 10%;
+}
+
+.about-head {
+    font-size: 52px;
+    color:  rgb(17, 70, 17);
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about {
+    font-size: 24px;
+    padding: 3%;
+    font-family: fon-1;
+}
+
+.our-pets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid;
+    border-radius: 10%;
+    border-color: rgb(17, 70, 17);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(127, 177, 127);
+}
+.pet-img {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+.search_pets-main {
+    display: flex;
+    justify-content: space-around;
+}
+.text-search-pets {
+    text-align: center; 
+    padding: 24px; 
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+}
+
+.input-pet-search {
+    padding: 10px  30px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search_pets {
+    margin: 3%;
+}
+
+
+.avatar {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+}
+
+.footer-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    border-top: 1px solid;
+    background-color: rgb(127, 177, 127);
+   
+
+}
+
+.nav_menu_footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(17, 70, 17);
+}
+
+.tel ,
+.e-mail {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
