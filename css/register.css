@@ -55,3 +55,20 @@ input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(17, 70, 17);
 }
+
+@media (max-width: 320px){ 
+    .form {
+        background-color: white;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}

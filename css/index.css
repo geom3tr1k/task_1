@@ -98,6 +98,7 @@
     margin: 5%;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 
 .button-slaider:hover {
@@ -249,3 +250,87 @@
     flex-direction: column;
 }
 
+@media (max-width: 768px){
+    * {
+        font-size: 18px;
+    }
+    .search_pets-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .input-pet-search{
+        margin: 1%;
+    }
+
+}
+
+@media (max-width: 320px){ 
+    .header-container {
+        display: none;
+    }
+
+   .pet {
+    width: 100%;
+   }
+
+   .pet-img {
+    width: 70%;
+    height: 50%;
+   }
+
+   .nav_menu_footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .search {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 1vh;
+    padding: 2%;
+   }
+
+   .text-search {
+    transform: rotate(0);
+   }
+
+   .input-search {
+    width:90%;
+    margin: 1%;
+    font-size: 12px;
+   }
+   .about, .about-head {
+    font-size: 14px;
+   }
+
+   .about_us {
+     width: 100%;
+     padding: 0;
+     margin: 0;
+   }
+
+   .slaider-container {
+    font-size: 12px;
+   }
+
+   .avatar {
+    width: 10%;
+    height: 10%;
+   }
+
+   .slaider-img {
+    width: 70%;
+   }
+
+   .button-slaider {
+     padding: 0;
+    font-size: 10px;
+    width: 90%;
+   }
+
+   .description-pet {
+    font-size: 12px;
+   }
+}
